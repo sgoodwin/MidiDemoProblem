@@ -12,6 +12,8 @@
 		9BB8D4E11BC90B9100F11579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8D4DF1BC90B9100F11579 /* Main.storyboard */; };
 		9BB8D4E31BC90B9100F11579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8D4E21BC90B9100F11579 /* Assets.xcassets */; };
 		9BB8D4E61BC90B9100F11579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8D4E41BC90B9100F11579 /* LaunchScreen.storyboard */; };
+		9BB8D4EE1BC90BB300F11579 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8D4ED1BC90BB300F11579 /* Play.swift */; settings = {ASSET_TAGS = (); }; };
+		9BB8D4F01BC90CF600F11579 /* GeneralUser_GS_SoftSynth.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8D4EF1BC90CF600F11579 /* GeneralUser_GS_SoftSynth.sf2 */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9BB8D4E21BC90B9100F11579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB8D4E51BC90B9100F11579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BB8D4E71BC90B9100F11579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB8D4ED1BC90BB300F11579 /* Play.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		9BB8D4EF1BC90CF600F11579 /* GeneralUser_GS_SoftSynth.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeneralUser_GS_SoftSynth.sf2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		9BB8D4DA1BC90B9100F11579 /* MidiProblemDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9BB8D4EF1BC90CF600F11579 /* GeneralUser_GS_SoftSynth.sf2 */,
+				9BB8D4ED1BC90BB300F11579 /* Play.swift */,
 				9BB8D4DB1BC90B9100F11579 /* AppDelegate.swift */,
 				9BB8D4DD1BC90B9100F11579 /* ViewController.swift */,
 				9BB8D4DF1BC90B9100F11579 /* Main.storyboard */,
@@ -121,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB8D4F01BC90CF600F11579 /* GeneralUser_GS_SoftSynth.sf2 in Resources */,
 				9BB8D4E61BC90B9100F11579 /* LaunchScreen.storyboard in Resources */,
 				9BB8D4E31BC90B9100F11579 /* Assets.xcassets in Resources */,
 				9BB8D4E11BC90B9100F11579 /* Main.storyboard in Resources */,
@@ -136,6 +143,7 @@
 			files = (
 				9BB8D4DE1BC90B9100F11579 /* ViewController.swift in Sources */,
 				9BB8D4DC1BC90B9100F11579 /* AppDelegate.swift in Sources */,
+				9BB8D4EE1BC90BB300F11579 /* Play.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
